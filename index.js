@@ -13,10 +13,10 @@ document.querySelectorAll(".img2")[0].setAttribute("src",path2);
 
 
 if(b>e){
-    document.querySelector("h1").innerHTML="computer wins!"
+    document.querySelector("h1").innerHTML="Computer Wins!"
 }
 else if(b<e){
-    document.querySelector("h1").textContent="you win!"
+    document.querySelector("h1").textContent="You Win!"
     }
 else{
     document.querySelector("h1").textContent="draw!"
